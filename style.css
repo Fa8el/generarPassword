@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #002339;
+    color: aquamarine;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #004466;
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+input#password {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid aquamarine;
+    background: #003355;
+    color: aquamarine;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: aquamarine;
+    color: #002339;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button.copiar {
+    background: #00ffff;
+    color: #002339;
+}
+
+button:hover {
+    background: #00ffff;
+}
+
+button.copiar:hover {
+    background: #ff6347;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+
+
